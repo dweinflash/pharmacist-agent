@@ -5,9 +5,9 @@ A fast, research-based OTC medication recommendation assistant powered by MCP (M
 ## Background
 
 - [Grant Harting](https://www.youtube.com/@grant_harting/shorts) is a pharmacist on YouTube who provides product recommendations based on pharmaceutical research.
-- [Elie Schoppik](https://www.deeplearning.ai/short-courses/mcp-build-rich-context-ai-apps-with-anthropic/) from Anthropic partnered with DeepLearning.AI to reach a course on MCP servers.
+- [Elie Schoppik](https://www.deeplearning.ai/short-courses/mcp-build-rich-context-ai-apps-with-anthropic/) from Anthropic partnered with DeepLearning.AI to teach a course on MCP servers.
 
-Inspired by Grant Harting's work, this projects sets out to build an Agentic CLI application using research-tailored MCP servers to deliver over-the-counter treatment advice based on key findings gathered from scientific research papers.
+Inspired by Grant and Elie's work, this projects sets out to build an Agentic CLI application using research-tailored MCP servers to deliver over-the-counter treatment advice based on key findings gathered from scientific research papers.
 
 ## Overview
 
