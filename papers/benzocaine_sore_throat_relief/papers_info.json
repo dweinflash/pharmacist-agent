@@ -1,0 +1,38 @@
+{
+  "2507.02947v1": {
+    "title": "The Application of Large Language Models on Major Depressive Disorder Support Based on African Natural Products",
+    "authors": [
+      "Linyan Zou"
+    ],
+    "summary": "Major depressive disorder represents one of the most significant global\nhealth challenges of the 21st century, affecting millions of people worldwide\nand creating substantial economic and social burdens. While conventional\nantidepressant therapies have provided relief for many individuals, their\nlimitations including delayed onset of action, significant side effects, and\ntreatment resistance in a substantial portion of patients have prompted\nresearchers and healthcare providers to explore alternative therapeutic\napproaches (Kasneci et al.). African traditional medicine, with its rich\nheritage of plant-based remedies developed over millennia, offers a valuable\nresource for developing novel antidepressant treatments that may address some\nof these limitations. This paper examines the integration of large language\nmodels with African natural products for depression support, combining\ntraditional knowledge with modern artificial intelligence technology to create\naccessible, evidence-based mental health support systems.\n  The research presented here encompasses a comprehensive analysis of African\nmedicinal plants with documented antidepressant properties, their\npharmacological mechanisms, and the development of an AI-powered support system\nthat leverages DeepSeek's advanced language model capabilities. The system\nprovides evidence-based information about African herbal medicines, their\nclinical applications, safety considerations, and therapeutic protocols while\nmaintaining scientific rigor and appropriate safety standards. Our findings\ndemonstrate the potential for large language models to serve as bridges between\ntraditional knowledge and modern healthcare, offering personalized, culturally\nappropriate depression support that honors both traditional wisdom and\ncontemporary medical understanding.",
+    "pdf_url": "http://arxiv.org/pdf/2507.02947v1",
+    "published": "2025-06-28"
+  },
+  "2201.06916v1": {
+    "title": "A Review on Serious Games for Disaster Relief",
+    "authors": [
+      "Huansheng Ning",
+      "Zhangfeng Pi",
+      "Wenxi Wang",
+      "Fadi Farha",
+      "Shunkun Yang"
+    ],
+    "summary": "Human beings have been affected by disasters from the beginning of life,\nbringing them many sad memories. In the long struggle against disaster, people\nhave devised a variety of methods to train relevant participants in disaster\nrelief capabilities. However, many traditional training methods, such as\ndisaster exercises may not provide effective training to meet the need of\ntoday. Serious games provide an innovative approach to train participants in\ndisaster relief, and a large number of Serious Games for Disaster Relief\n(SGDRs) have been developed to train disaster planning and rescue capabilities.\nAt the same time, there is no systematics phase description for disaster\nrelief, which cannot effectively guide participants' work and training in\ndisaster relief. Therefore, this paper proposes a comprehensive and\nprofessional disaster relief classification framework according to different\nrelief work in each stage of the disaster. Based on this framework, we review\nthe functions and technologies of serious games in each classification, which\ncan offer reliable guidance for researchers to better understand and use SGDRs.\nIn addition, we analyze the serious games in each category, point out the\nlimitations, and provide some valuable advice for developers on game design.",
+    "pdf_url": "http://arxiv.org/pdf/2201.06916v1",
+    "published": "2022-01-10"
+  },
+  "2010.01256v1": {
+    "title": "Cartographic Relief Shading with Neural Networks",
+    "authors": [
+      "Bernhard Jenny",
+      "Magnus Heitzler",
+      "Dilpreet Singh",
+      "Marianna Farmakis-Serebryakova",
+      "Jeffery Chieh Liu",
+      "Lorenz Hurni"
+    ],
+    "summary": "Shaded relief is an effective method for visualising terrain on topographic\nmaps, especially when the direction of illumination is adapted locally to\nemphasise individual terrain features. However, digital shading algorithms are\nunable to fully match the expressiveness of hand-crafted masterpieces, which\nare created through a laborious process by highly specialised cartographers. We\nreplicate hand-drawn relief shading using U-Net neural networks. The deep\nneural networks are trained with manual shaded relief images of the Swiss\ntopographic map series and terrain models of the same area. The networks\ngenerate shaded relief that closely resemble hand-drawn shaded relief art. The\nnetworks learn essential design principles from manual relief shading such as\nremoving unnecessary terrain details, locally adjusting the illumination\ndirection to accentuate individual terrain features, and varying brightness to\nemphasise larger landforms. Neural network shadings are generated from digital\nelevation models in a few seconds, and a study with 18 relief shading experts\nfound that they are of high quality.",
+    "pdf_url": "http://arxiv.org/pdf/2010.01256v1",
+    "published": "2020-10-03"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "1804.06025v1": {
+    "title": "Optimal OLTC Voltage Control Scheme to Enable High Solar Penetrations",
+    "authors": [
+      "Changfu Li",
+      "Vahid R. Disfani",
+      "Zachary K. Pecenak",
+      "Saeed Mohajeryami",
+      "Jan Kleissl"
+    ],
+    "summary": "High solar Photovoltaic (PV) penetration on distribution systems can cause\nover-voltage problems. To this end, an Optimal Tap Control (OTC) method is\nproposed to regulate On-Load Tap Changers (OLTCs) by minimizing the maximum\ndeviation of the voltage profile from 1~p.u. on the entire feeder. A secondary\nobjective is to reduce the number of tap operations (TOs), which is implemented\nfor the optimization horizon based on voltage forecasts derived from high\nresolution PV generation forecasts. A linearization technique is applied to\nmake the optimization problem convex and able to be solved at operational\ntimescales. Simulations on a PC show the solution time for one time step is\nonly 1.1~s for a large feeder with 4 OLTCs and 1623 buses. OTC results are\ncompared against existing methods through simulations on two feeders in the\nCalifornian network. OTC is firstly compared against an advanced rule-based\nVoltage Level Control (VLC) method. OTC and VLC achieve the same reduction of\nvoltage violations, but unlike VLC, OTC is capable of coordinating multiple\nOLTCs. Scalability to multiple OLTCs is therefore demonstrated against a basic\nconventional rule-based control method called Autonomous Tap Control (ATC).\nComparing to ATC, the test feeder under control of OTC can accommodate around\n67\\% more PV without over-voltage issues. Though a side effect of OTC is an\nincrease in tap operations, the secondary objective functionally balances\noperations between all OLTCs such that impacts on their lifetime and\nmaintenance are minimized.",
+    "pdf_url": "http://arxiv.org/pdf/1804.06025v1",
+    "published": "2018-04-17"
+  }
+}

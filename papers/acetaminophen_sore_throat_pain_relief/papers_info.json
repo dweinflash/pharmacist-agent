@@ -1,0 +1,40 @@
+{
+  "1609.03730v1": {
+    "title": "A hierarchical neural stimulation model for pain relief by variation of coil design parameters",
+    "authors": [
+      "Raunaq Pradhan",
+      "Yuanjin Zheng"
+    ],
+    "summary": "Neural stimulation represents a powerful technique for neural disorder\ntreatment. This paper deals with optimization of coil design parameters to be\nused during stimulation for modulation of neuronal firing to achieve pain\nrelief. Pain mechanism is briefly introduced and a hierarchical stimulation\nmodel from coil stimulation to neuronal firing is proposed. Electromagnetic\nfield distribution for circular, figure of 8 and Magnetic resonance coupling\nfigure of 8 coils are analyzed with respect to the variation of stimulation\nparameters such as distance between coils, stimulation frequency, number of\nturns and radius of coils. MRC figure of 8 coils were responsible for inducing\nthe maximum Electric field for same amount of driving current in coils.\nVariation of membrane potential, ion channel conductance and neuronal firing\nfrequency in a pyramidal neuronal model due to magnetic and acoustic\nstimulation are studied. The frequency of neuronal firing for cortical neurons\nis higher during pain state, compared to no pain state. Lowest neuronal firing\nfrequency 18 Hz was found for MRC figure of 8 coils, compared to 30 Hz for\ncircular coils. Therefore, MRC figure of 8 coils are most effective for\nmodulation of neuronal firing, thereby achieving pain relief in comparison to\nother coils considered in this study",
+    "pdf_url": "http://arxiv.org/pdf/1609.03730v1",
+    "published": "2016-09-13"
+  },
+  "2501.11291v1": {
+    "title": "Multilineage-differentiating stress-enduring cells alleviate neuropathic pain in mice by secreting TGF-b and IL-10",
+    "authors": [
+      "Yayu Zhao",
+      "Ying Fei",
+      "Yunyun Cai",
+      "Zhongya Wei",
+      "Ying Chen",
+      "Yuhua Ji",
+      "Xue Chen",
+      "Dongmei Zhang",
+      "Gang Chen"
+    ],
+    "summary": "Neuropathic pain is a chronic condition characterized by damage to and\ndysfunction of the peripheral or central nervous system. There are currently no\neffective treatment options available for neuropathic pain, and existing drugs\noften provide only temporary relief with potential side effects.\nMultilineage-differentiating stress-enduring (Muse) cells are characterized by\nhigh expansion potential, a stable phenotype and strong immunosuppression.\nThese properties make them attractive candidates for therapeutics for\nneuropathic pain management. In this study, we conducted a series of\nexperiments to evaluate the effect of Muse cells on neuropathic pain. Muse\ncells from different species demonstrated analgesic potential by reversing\nCCI-induced neuropathic pain. Protein profiling revealed a high degree of\nsimilarity between Muse cells and BMSCs. The intrathecal injection of Muse\ncells effectively reduced neuropathic pain in various mouse models, resulting\nin better analgesic effects than the administration of equivalent low doses of\nBMSCs. Immunohistochemical analysis and qPCR revealed the ability of Muse cells\nto inhibit spinal cord neuroinflammation caused by SNI. In addition, Transwell\nand ELISA revealed that Muse cells migrated through the injured dorsal root\nganglion (DRG) via the CCR7-CCL21 chemotactic axis. In addition, the secretion\nof TGF-b and IL-10 by Muse cells was identified as the mechanism underlying the\nanalgesic effect of Muse cells. The capacity of Muse cells to mitigate\nneuroinflammation and produce analgesic effects via the modulation of TGF-b and\nIL-10 underscores their potential as promising therapeutic approaches for the\ntreatment of neuropathic pain.",
+    "pdf_url": "http://arxiv.org/pdf/2501.11291v1",
+    "published": "2025-01-20"
+  },
+  "1612.00497v1": {
+    "title": "Opioid Atlas: Mapping Access to Pain Medication",
+    "authors": [
+      "Kris Sankaran",
+      "Suzanne Tamang",
+      "Ami Bhatt"
+    ],
+    "summary": "Opiates are some of the most effective pain relief medications available for\npatients suffering from cancer and surgery-related pain. Despite the\naffordability and effectiveness of these medications, access to opiates is\nhighly geographically variable. Pain researchers have attributed geographic\nvariation to various factors including the fear of opioid addiction, diversion\nof legal opiods to the underground market and pharmaceutical industry\ninfluences. However, the extent to which there is inequity in untreated cancer\nand surgery-related pain is unknown. To help opioid investigators study these\nquestions, we designed a tool, the Opioid Atlas, for exploring data on legal\nopioid consumption, by country and time, collected by the International\nNarcotics Control Board. Our design borrows ideas from the data visualization\nand multivariate statistics communities, especially the principles of linking\nand dimensionality reduction. Our work is relevant to policymakers and pain\nresearchers who wish to systematically assess country-level factors that\ncontribute to differences in opioid access for patients with cancer and\nsurgery-related pain. The Opioid Atlas, and the code behind it, is freely\navailable with an open source license.",
+    "pdf_url": "http://arxiv.org/pdf/1612.00497v1",
+    "published": "2016-12-01"
+  }
+}

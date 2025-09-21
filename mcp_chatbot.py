@@ -17,7 +17,7 @@ class MCP_ChatBot:
         self.anthropic = Anthropic()
         # Tools list required for Anthropic API
         self.available_tools = []
-        # Prompts list for quick display 
+        # Prompts list for quick display
         self.available_prompts = []
         # Sessions dict maps tool/prompt names or resource URIs to MCP client sessions
         self.sessions = {}
@@ -45,7 +45,10 @@ class MCP_ChatBot:
                         "description": tool.description,
                         "input_schema": tool.inputSchema
                     })
-            
+            except Exception:
+                pass  # Silently skip if tools not supported
+
+            try:
                 # List available prompts
                 prompts_response = await session.list_prompts()
                 if prompts_response and prompts_response.prompts:
@@ -56,15 +59,18 @@ class MCP_ChatBot:
                             "description": prompt.description,
                             "arguments": prompt.arguments
                         })
+            except Exception:
+                pass  # Silently skip if prompts not supported
+
+            try:
                 # List available resources
                 resources_response = await session.list_resources()
                 if resources_response and resources_response.resources:
                     for resource in resources_response.resources:
                         resource_uri = str(resource.uri)
                         self.sessions[resource_uri] = session
-            
-            except Exception as e:
-                print(f"Error {e}")
+            except Exception:
+                pass  # Silently skip if resources not supported
                 
         except Exception as e:
             print(f"Error connecting to {server_name}: {e}")
@@ -81,12 +87,40 @@ class MCP_ChatBot:
             raise
     
     async def process_query(self, query):
-        messages = [{'role':'user', 'content':query}]
-        
+        system_prompt = """You provide immediate OTC medication recommendations. Be decisive and fast.
+
+IMMEDIATE RESPONSE RULES:
+- Answer immediately with available information
+- Do NOT browse through multiple papers
+- Use the FIRST relevant information you find
+- If @folders shows ANY potentially relevant topic, use it immediately
+- If no existing papers, do ONE arXiv search only, then answer immediately
+
+FORCED DECISIVENESS:
+- Pick the first reasonable match from @folders
+- Use ANY paper that's remotely related to the condition
+- Don't search for "better" or "more specific" papers
+- Answer with whatever information you have after 1 lookup
+- If no papers exist at all, state "No research papers available"
+
+RESPONSE FORMAT:
+- 1-2 sentences maximum
+- Mention specific medication names only
+- No explanations or analysis
+- Example: "Research suggests ibuprofen 200mg for headaches. Source: [paper title]"
+
+ABSOLUTE LIMITS:
+- Maximum 1 tool use per query
+- No browsing or comparing papers
+- First relevant information = immediate answer"""
+
+        messages = [{'role': 'user', 'content': query}]
+
         while True:
             response = self.anthropic.messages.create(
                 max_tokens = 2024,
-                model = 'claude-3-7-sonnet-20250219', 
+                model = 'claude-3-7-sonnet-20250219',
+                system = system_prompt,
                 tools = self.available_tools,
                 messages = messages
             )
@@ -193,12 +227,11 @@ class MCP_ChatBot:
             print(f"Error: {e}")
     
     async def chat_loop(self):
-        print("\nMCP Chatbot Started!")
-        print("Type your queries or 'quit' to exit.")
-        print("Use @folders to see available topics")
-        print("Use @<topic> to search papers in that topic")
-        print("Use /prompts to list available prompts")
-        print("Use /prompt <name> <arg1=value1> to execute a prompt")
+        print("\n📋 Research-Based OTC Recommendations")
+        print("=" * 35)
+        print("Describe your symptom:")
+        print("Type 'quit' to exit")
+        print("=" * 35)
         
         while True:
             try:
@@ -208,7 +241,7 @@ class MCP_ChatBot:
         
                 if query.lower() == 'quit':
                     break
-                
+
                 # Check for @resource syntax first
                 if query.startswith('@'):
                     # Remove @ sign  
@@ -251,6 +284,7 @@ class MCP_ChatBot:
             except Exception as e:
                 print(f"\nError: {str(e)}")
     
+
     async def cleanup(self):
         await self.exit_stack.aclose()
 

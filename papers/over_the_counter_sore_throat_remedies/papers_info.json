@@ -1,0 +1,33 @@
+{
+  "2507.02947v1": {
+    "title": "The Application of Large Language Models on Major Depressive Disorder Support Based on African Natural Products",
+    "authors": [
+      "Linyan Zou"
+    ],
+    "summary": "Major depressive disorder represents one of the most significant global\nhealth challenges of the 21st century, affecting millions of people worldwide\nand creating substantial economic and social burdens. While conventional\nantidepressant therapies have provided relief for many individuals, their\nlimitations including delayed onset of action, significant side effects, and\ntreatment resistance in a substantial portion of patients have prompted\nresearchers and healthcare providers to explore alternative therapeutic\napproaches (Kasneci et al.). African traditional medicine, with its rich\nheritage of plant-based remedies developed over millennia, offers a valuable\nresource for developing novel antidepressant treatments that may address some\nof these limitations. This paper examines the integration of large language\nmodels with African natural products for depression support, combining\ntraditional knowledge with modern artificial intelligence technology to create\naccessible, evidence-based mental health support systems.\n  The research presented here encompasses a comprehensive analysis of African\nmedicinal plants with documented antidepressant properties, their\npharmacological mechanisms, and the development of an AI-powered support system\nthat leverages DeepSeek's advanced language model capabilities. The system\nprovides evidence-based information about African herbal medicines, their\nclinical applications, safety considerations, and therapeutic protocols while\nmaintaining scientific rigor and appropriate safety standards. Our findings\ndemonstrate the potential for large language models to serve as bridges between\ntraditional knowledge and modern healthcare, offering personalized, culturally\nappropriate depression support that honors both traditional wisdom and\ncontemporary medical understanding.",
+    "pdf_url": "http://arxiv.org/pdf/2507.02947v1",
+    "published": "2025-06-28"
+  },
+  "1212.1006v1": {
+    "title": "Time machines and traversable wormholes in modified theories of gravity",
+    "authors": [
+      "Francisco S. N. Lobo"
+    ],
+    "summary": "We review recent work on wormhole geometries in the context of modified\ntheories of gravity, in particular, in f(R) gravity and with a nonminimal\ncurvature-matter coupling, and in the recently proposed hybrid metric-Palatini\ntheory. In principle, the normal matter threading the throat can be shown to\nsatisfy the energy conditions and it is the higher order curvatures terms that\nsustain these wormhole geometries. We also briefly review the conversion of\nwormholes into time-machines, explore several of the time travel paradoxes and\npossible remedies to these intriguing side-effects in wormhole physics.",
+    "pdf_url": "http://arxiv.org/pdf/1212.1006v1",
+    "published": "2012-12-05"
+  },
+  "2401.14616v1": {
+    "title": "Alternative Speech: Complementary Method to Counter-Narrative for Better Discourse",
+    "authors": [
+      "Seungyoon Lee",
+      "Dahyun Jung",
+      "Chanjun Park",
+      "Seolhwa Lee",
+      "Heuiseok Lim"
+    ],
+    "summary": "We introduce the concept of \"Alternative Speech\" as a new way to directly\ncombat hate speech and complement the limitations of counter-narrative. An\nalternative speech provides practical alternatives to hate speech in real-world\nscenarios by offering speech-level corrections to speakers while considering\nthe surrounding context and promoting speakers to reform. Further, an\nalternative speech can combat hate speech alongside counter-narratives,\noffering a useful tool to address social issues such as racial discrimination\nand gender inequality. We propose the new concept and provide detailed\nguidelines for constructing the necessary dataset. Through discussion, we\ndemonstrate that combining alternative speech and counter-narrative can be a\nmore effective strategy for combating hate speech by complementing specificity\nand guiding capacity of counter-narrative. This paper presents another\nperspective for dealing with hate speech, offering viable remedies to\ncomplement the constraints of current approaches to mitigating harmful bias.",
+    "pdf_url": "http://arxiv.org/pdf/2401.14616v1",
+    "published": "2024-01-26"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "2004.10641v1": {
+    "title": "Automatic Detection of Coronavirus Disease (COVID-19) in X-ray and CT Images: A Machine Learning-Based Approach",
+    "authors": [
+      "Sara Hosseinzadeh Kassani",
+      "Peyman Hosseinzadeh Kassasni",
+      "Michal J. Wesolowski",
+      "Kevin A. Schneider",
+      "Ralph Deters"
+    ],
+    "summary": "The newly identified Coronavirus pneumonia, subsequently termed COVID-19, is\nhighly transmittable and pathogenic with no clinically approved antiviral drug\nor vaccine available for treatment. The most common symptoms of COVID-19 are\ndry cough, sore throat, and fever. Symptoms can progress to a severe form of\npneumonia with critical complications, including septic shock, pulmonary edema,\nacute respiratory distress syndrome and multi-organ failure. While medical\nimaging is not currently recommended in Canada for primary diagnosis of\nCOVID-19, computer-aided diagnosis systems could assist in the early detection\nof COVID-19 abnormalities and help to monitor the progression of the disease,\npotentially reduce mortality rates. In this study, we compare popular deep\nlearning-based feature extraction frameworks for automatic COVID-19\nclassification. To obtain the most accurate feature, which is an essential\ncomponent of learning, MobileNet, DenseNet, Xception, ResNet, InceptionV3,\nInceptionResNetV2, VGGNet, NASNet were chosen amongst a pool of deep\nconvolutional neural networks. The extracted features were then fed into\nseveral machine learning classifiers to classify subjects as either a case of\nCOVID-19 or a control. This approach avoided task-specific data pre-processing\nmethods to support a better generalization ability for unseen data. The\nperformance of the proposed method was validated on a publicly available\nCOVID-19 dataset of chest X-ray and CT images. The DenseNet121 feature\nextractor with Bagging tree classifier achieved the best performance with 99%\nclassification accuracy. The second-best learner was a hybrid of the a ResNet50\nfeature extractor trained by LightGBM with an accuracy of 98%.",
+    "pdf_url": "http://arxiv.org/pdf/2004.10641v1",
+    "published": "2020-04-22"
+  },
+  "2401.07846v4": {
+    "title": "Circular light orbits of a general, static, and spherical symmetrical wormhole with $Z_2$ symmetry",
+    "authors": [
+      "Naoki Tsukamoto"
+    ],
+    "summary": "Recently, the ring images or the shadow images of the centers of the galaxy\nM87 and the Milky way have been reported by Event Horizon Telescope\nCollaboration. It is believed that the ring images imply that the central\nobjects form unstable light circular orbits. Some of wormholes with $Z_2$\nsymmetry against a throat are wrongly excluded from the candidates at the\ncenters of M87 and the Milky way due to the overlooking the unstable light\ncircular orbits on the throat. A general asymptotically-flat, static, and\nspherical symmetrical wormhole without a thin shell has at least one unstable\ncircular light orbit at the throat or elsewhere. If the wormhole has $Z_2$\nsymmetry against the throat, it has the unstable circular light orbits on the\nthroat or it has stable circular light orbits on the throat and unstable ones\nnear the throat. We need to analyze the throat carefully to make sure we do not\nunfairly rule out the $Z_2$-symmetrical wormholes. In this study, we categorize\nthe numbers of the circular light orbits of the $Z_2$-symmetrical wormhole and\ntheir stability from the derivatives of an effective potential at the throat\nand we investigate the circular light orbits around a Simpson-Visser\nblack-bounce spacetime, a Damour-Solodukhin wormhole spacetime, a\nReissner-Nordstr\\\"{o}m black-hole-like wormhole spacetime or a charged\nDamour-Solodukhin wormhole spacetime as examples. We give complete treatments\nincluding degenerated circular light orbits made from more than one stable and\nunstable circular light orbits on and off the throat.",
+    "pdf_url": "http://arxiv.org/pdf/2401.07846v4",
+    "published": "2024-01-15"
+  },
+  "2504.07913v1": {
+    "title": "Optimal Control For Anti-Abeta Treatment in Alzheimer's Disease using a Reaction-Diffusion Model",
+    "authors": [
+      "Wenrui Hao",
+      "Chiu-Yen Kao",
+      "Sun Lee",
+      "Zhiyuan Li"
+    ],
+    "summary": "Alzheimer's disease is a progressive neurodegenerative disorder that\nsignificantly impairs patient survival and quality of life. While current\npharmacological treatments aim to slow disease progression, they remain\ninsufficient in halting cognitive decline. Mathematical modeling has emerged as\na powerful tool for understanding the dynamics of AD and optimizing treatment\nstrategies. However, most existing models focus on temporal dynamics using\nordinary differential equation-based approaches, often neglecting the critical\nrole of spatial heterogeneity in disease progression.\n  In this study, we employ a spatially explicit reaction-diffusion model to\ndescribe amyloid-beta (A beta) dynamics in the brain, incorporating treatment\noptimization while accounting for potential side effects. Our objective is to\nminimize amyloid-beta plaque concentration while balancing therapeutic efficacy\nagainst adverse effects, such as amyloid-related imaging abnormalities (ARIA).\nUnder specific assumptions, we establish the well-posedness and uniqueness of\nthe optimal solution. We employ numerical methods based on the Finite Element\nMethod to compute personalized treatment strategies, leveraging real patient\namyloid-beta positron emission tomography (PET) scan data.\n  Our results demonstrate that optimal treatment strategies outperform constant\ndosing regimens, achieving significant reductions in amyloid burden while\nminimizing side effects. By integrating spatial dynamics and personalized\ntreatment planning, our framework offers a novel approach to refining\ntherapeutic interventions for Alzheimer's disease.",
+    "pdf_url": "http://arxiv.org/pdf/2504.07913v1",
+    "published": "2025-04-10"
+  },
+  "2106.10684v1": {
+    "title": "Optimal personalised treatment computation through in silico clinical trials on patient digital twins",
+    "authors": [
+      "Stefano Sinisi",
+      "Vadim Alimguzhin",
+      "Toni Mancini",
+      "Enrico Tronci",
+      "Federico Mari",
+      "Brigitte Leeners"
+    ],
+    "summary": "In Silico Clinical Trials (ISTC), i.e., clinical experimental campaigns\ncarried out by means of computer simulations, hold the promise to decrease time\nand cost for the safety and efficacy assessment of pharmacological treatments,\nreduce the need for animal and human testing, and enable precision medicine. In\nthis paper we present methods and an algorithm that, by means of extensive\ncomputer simulation--based experimental campaigns (ISTC) guided by intelligent\nsearch, optimise a pharmacological treatment for an individual patient\n(precision medicine). e show the effectiveness of our approach on a case study\ninvolving a real pharmacological treatment, namely the downregulation phase of\na complex clinical protocol for assisted reproduction in humans.",
+    "pdf_url": "http://arxiv.org/pdf/2106.10684v1",
+    "published": "2021-06-20"
+  },
+  "1602.02492v1": {
+    "title": "NMR based Pharmaco-metabolomics: An efficient and agile tool for therapeutic evaluation of Traditional Herbal Medicines",
+    "authors": [
+      "Dinesh Kumar",
+      "Atul Rawat",
+      "Durgesh Dubey",
+      "Umesh Kumar",
+      "Amit K Keshari",
+      "Sudipta Saha",
+      "Anupam Guleria"
+    ],
+    "summary": "Traditional Indian (Ayurvedic) and Chinese herbal medicines have been used in\nthe treatment of a variety of diseases for thousands of years because of their\nnatural origin and lesser side effects. However, the safety and efficacy data\n(including dose and quality parameters) on most of these traditional medicines\nare far from sufficient to meet the criteria needed to support their world-wide\ntherapeutic use. Also, the mechanistic understanding of most of these herbal\nmedicines is still lacking due to their complex components which further limits\ntheir wider application and acceptance. Metabolomics -a novel approach to\nreveal altered metabolism (biochemical effects) produced in response to a\ndisease or its therapeutic intervention- has huge potential to assess the\npharmacology and toxicology of traditional herbal medicines (THMs). Therefore,\nit is gradually becoming a mutually complementary technique to genomics,\ntranscriptomics and proteomics for therapeutic evaluation of pharmaceutical\nproducts (including THMs); the approach is so called pharmaco-metabolomics. The\nwhole paradigm is based on its ability to provide metabolic signatures to\nconfirm the diseased condition and then to use the concentration profiles of\nthese biomarkers to assess the therapeutic response. Nuclear magnetic resonance\n(NMR) spectroscopy coupled with multivariate data analysis is currently the\nmethod of choice for pharmaco-metabolomics studies owing to its unbiased,\nnon-destructive nature and minimal sample preparation requirement. In recent\npast, dozens of NMR based pharmaco-metabolomic studies have been devoted to\nprove the therapeutic efficacy/safety and to explore the underlying mechanisms\nof THMs, with promising results. The current perspective article summarizes\nvarious such studies in addition to describing the technical and conceptual\naspects involved in NMR based pharmaco-metabolomics.",
+    "pdf_url": "http://arxiv.org/pdf/1602.02492v1",
+    "published": "2016-02-08"
+  }
+}

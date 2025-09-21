@@ -1,0 +1,69 @@
+{
+  "2504.07913v1": {
+    "title": "Optimal Control For Anti-Abeta Treatment in Alzheimer's Disease using a Reaction-Diffusion Model",
+    "authors": [
+      "Wenrui Hao",
+      "Chiu-Yen Kao",
+      "Sun Lee",
+      "Zhiyuan Li"
+    ],
+    "summary": "Alzheimer's disease is a progressive neurodegenerative disorder that\nsignificantly impairs patient survival and quality of life. While current\npharmacological treatments aim to slow disease progression, they remain\ninsufficient in halting cognitive decline. Mathematical modeling has emerged as\na powerful tool for understanding the dynamics of AD and optimizing treatment\nstrategies. However, most existing models focus on temporal dynamics using\nordinary differential equation-based approaches, often neglecting the critical\nrole of spatial heterogeneity in disease progression.\n  In this study, we employ a spatially explicit reaction-diffusion model to\ndescribe amyloid-beta (A beta) dynamics in the brain, incorporating treatment\noptimization while accounting for potential side effects. Our objective is to\nminimize amyloid-beta plaque concentration while balancing therapeutic efficacy\nagainst adverse effects, such as amyloid-related imaging abnormalities (ARIA).\nUnder specific assumptions, we establish the well-posedness and uniqueness of\nthe optimal solution. We employ numerical methods based on the Finite Element\nMethod to compute personalized treatment strategies, leveraging real patient\namyloid-beta positron emission tomography (PET) scan data.\n  Our results demonstrate that optimal treatment strategies outperform constant\ndosing regimens, achieving significant reductions in amyloid burden while\nminimizing side effects. By integrating spatial dynamics and personalized\ntreatment planning, our framework offers a novel approach to refining\ntherapeutic interventions for Alzheimer's disease.",
+    "pdf_url": "http://arxiv.org/pdf/2504.07913v1",
+    "published": "2025-04-10"
+  },
+  "2106.10684v1": {
+    "title": "Optimal personalised treatment computation through in silico clinical trials on patient digital twins",
+    "authors": [
+      "Stefano Sinisi",
+      "Vadim Alimguzhin",
+      "Toni Mancini",
+      "Enrico Tronci",
+      "Federico Mari",
+      "Brigitte Leeners"
+    ],
+    "summary": "In Silico Clinical Trials (ISTC), i.e., clinical experimental campaigns\ncarried out by means of computer simulations, hold the promise to decrease time\nand cost for the safety and efficacy assessment of pharmacological treatments,\nreduce the need for animal and human testing, and enable precision medicine. In\nthis paper we present methods and an algorithm that, by means of extensive\ncomputer simulation--based experimental campaigns (ISTC) guided by intelligent\nsearch, optimise a pharmacological treatment for an individual patient\n(precision medicine). e show the effectiveness of our approach on a case study\ninvolving a real pharmacological treatment, namely the downregulation phase of\na complex clinical protocol for assisted reproduction in humans.",
+    "pdf_url": "http://arxiv.org/pdf/2106.10684v1",
+    "published": "2021-06-20"
+  },
+  "1602.02492v1": {
+    "title": "NMR based Pharmaco-metabolomics: An efficient and agile tool for therapeutic evaluation of Traditional Herbal Medicines",
+    "authors": [
+      "Dinesh Kumar",
+      "Atul Rawat",
+      "Durgesh Dubey",
+      "Umesh Kumar",
+      "Amit K Keshari",
+      "Sudipta Saha",
+      "Anupam Guleria"
+    ],
+    "summary": "Traditional Indian (Ayurvedic) and Chinese herbal medicines have been used in\nthe treatment of a variety of diseases for thousands of years because of their\nnatural origin and lesser side effects. However, the safety and efficacy data\n(including dose and quality parameters) on most of these traditional medicines\nare far from sufficient to meet the criteria needed to support their world-wide\ntherapeutic use. Also, the mechanistic understanding of most of these herbal\nmedicines is still lacking due to their complex components which further limits\ntheir wider application and acceptance. Metabolomics -a novel approach to\nreveal altered metabolism (biochemical effects) produced in response to a\ndisease or its therapeutic intervention- has huge potential to assess the\npharmacology and toxicology of traditional herbal medicines (THMs). Therefore,\nit is gradually becoming a mutually complementary technique to genomics,\ntranscriptomics and proteomics for therapeutic evaluation of pharmaceutical\nproducts (including THMs); the approach is so called pharmaco-metabolomics. The\nwhole paradigm is based on its ability to provide metabolic signatures to\nconfirm the diseased condition and then to use the concentration profiles of\nthese biomarkers to assess the therapeutic response. Nuclear magnetic resonance\n(NMR) spectroscopy coupled with multivariate data analysis is currently the\nmethod of choice for pharmaco-metabolomics studies owing to its unbiased,\nnon-destructive nature and minimal sample preparation requirement. In recent\npast, dozens of NMR based pharmaco-metabolomic studies have been devoted to\nprove the therapeutic efficacy/safety and to explore the underlying mechanisms\nof THMs, with promising results. The current perspective article summarizes\nvarious such studies in addition to describing the technical and conceptual\naspects involved in NMR based pharmaco-metabolomics.",
+    "pdf_url": "http://arxiv.org/pdf/1602.02492v1",
+    "published": "2016-02-08"
+  },
+  "2507.02947v1": {
+    "title": "The Application of Large Language Models on Major Depressive Disorder Support Based on African Natural Products",
+    "authors": [
+      "Linyan Zou"
+    ],
+    "summary": "Major depressive disorder represents one of the most significant global\nhealth challenges of the 21st century, affecting millions of people worldwide\nand creating substantial economic and social burdens. While conventional\nantidepressant therapies have provided relief for many individuals, their\nlimitations including delayed onset of action, significant side effects, and\ntreatment resistance in a substantial portion of patients have prompted\nresearchers and healthcare providers to explore alternative therapeutic\napproaches (Kasneci et al.). African traditional medicine, with its rich\nheritage of plant-based remedies developed over millennia, offers a valuable\nresource for developing novel antidepressant treatments that may address some\nof these limitations. This paper examines the integration of large language\nmodels with African natural products for depression support, combining\ntraditional knowledge with modern artificial intelligence technology to create\naccessible, evidence-based mental health support systems.\n  The research presented here encompasses a comprehensive analysis of African\nmedicinal plants with documented antidepressant properties, their\npharmacological mechanisms, and the development of an AI-powered support system\nthat leverages DeepSeek's advanced language model capabilities. The system\nprovides evidence-based information about African herbal medicines, their\nclinical applications, safety considerations, and therapeutic protocols while\nmaintaining scientific rigor and appropriate safety standards. Our findings\ndemonstrate the potential for large language models to serve as bridges between\ntraditional knowledge and modern healthcare, offering personalized, culturally\nappropriate depression support that honors both traditional wisdom and\ncontemporary medical understanding.",
+    "pdf_url": "http://arxiv.org/pdf/2507.02947v1",
+    "published": "2025-06-28"
+  },
+  "2104.06640v3": {
+    "title": "Classifying herbal medicine origins by temporal and spectral data mining of electronic nose",
+    "authors": [
+      "Li Liu",
+      "Xianghao Zhan",
+      "Ziheng Duan",
+      "Yi Wu",
+      "Rumeng Wu",
+      "Xiaoqing Guan",
+      "Zhan Wang",
+      "You Wang",
+      "Guang Li"
+    ],
+    "summary": "The origins of herbal medicines are important for their treatment effect,\nwhich could be potentially distinguished by electronic nose system. As the odor\nfingerprint of herbal medicines from different origins can be tiny, the\ndiscrimination of origins can be much harder than that of different categories.\nBetter feature extraction methods are significant for this task to be more\naccurately done, but there lacks systematic studies on different feature\nextraction methods. In this study, we classified different origins of three\ncategories of herbal medicines with different feature extraction methods:\nmanual feature extraction, mathematical transformation, deep learning\nalgorithms. With 50 repetitive experiments with bootstrapping, we compared the\neffectiveness of the extractions with a two-layer neural network w/o\ndimensionality reduction methods (principal component analysis, linear\ndiscriminant analysis) as the three base classifiers. Compared with the\nconventional aggregated features, the Fast Fourier Transform method and our\nnovel approach (longitudinal-information-in-a-line) showed an significant\naccuracy improvement(p < 0.05) on all 3 base classifiers and all three herbal\nmedicine categories. Two of the deep learning algorithm we applied also showed\npartially significant improvement: one-dimensional convolution neural\nnetwork(1D-CNN) and a novel graph pooling based framework - multivariate time\npooling(MTPool).",
+    "pdf_url": "http://arxiv.org/pdf/2104.06640v3",
+    "published": "2021-04-14"
+  }
+}

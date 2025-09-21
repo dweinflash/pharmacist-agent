@@ -1,0 +1,61 @@
+{
+  "2308.06763v2": {
+    "title": "Discovering the Symptom Patterns of COVID-19 from Recovered and Deceased Patients Using Apriori Association Rule Mining",
+    "authors": [
+      "Mohammad Dehghani",
+      "Zahra Yazdanparast"
+    ],
+    "summary": "The COVID-19 pandemic has a devastating impact globally, claiming millions of\nlives and causing significant social and economic disruptions. In order to\noptimize decision-making and allocate limited resources, it is essential to\nidentify COVID-19 symptoms and determine the severity of each case. Machine\nlearning algorithms offer a potent tool in the medical field, particularly in\nmining clinical datasets for useful information and guiding scientific\ndecisions. Association rule mining is a machine learning technique for\nextracting hidden patterns from data. This paper presents an application of\nassociation rule mining based Apriori algorithm to discover symptom patterns\nfrom COVID-19 patients. The study, using 2875 patient's records, identified the\nmost common signs and symptoms as apnea (72%), cough (64%), fever (59%),\nweakness (18%), myalgia (14.5%), and sore throat (12%). The proposed method\nprovides clinicians with valuable insight into disease that can assist them in\nmanaging and treating it effectively.",
+    "pdf_url": "http://arxiv.org/pdf/2308.06763v2",
+    "published": "2023-08-13"
+  },
+  "2004.10641v1": {
+    "title": "Automatic Detection of Coronavirus Disease (COVID-19) in X-ray and CT Images: A Machine Learning-Based Approach",
+    "authors": [
+      "Sara Hosseinzadeh Kassani",
+      "Peyman Hosseinzadeh Kassasni",
+      "Michal J. Wesolowski",
+      "Kevin A. Schneider",
+      "Ralph Deters"
+    ],
+    "summary": "The newly identified Coronavirus pneumonia, subsequently termed COVID-19, is\nhighly transmittable and pathogenic with no clinically approved antiviral drug\nor vaccine available for treatment. The most common symptoms of COVID-19 are\ndry cough, sore throat, and fever. Symptoms can progress to a severe form of\npneumonia with critical complications, including septic shock, pulmonary edema,\nacute respiratory distress syndrome and multi-organ failure. While medical\nimaging is not currently recommended in Canada for primary diagnosis of\nCOVID-19, computer-aided diagnosis systems could assist in the early detection\nof COVID-19 abnormalities and help to monitor the progression of the disease,\npotentially reduce mortality rates. In this study, we compare popular deep\nlearning-based feature extraction frameworks for automatic COVID-19\nclassification. To obtain the most accurate feature, which is an essential\ncomponent of learning, MobileNet, DenseNet, Xception, ResNet, InceptionV3,\nInceptionResNetV2, VGGNet, NASNet were chosen amongst a pool of deep\nconvolutional neural networks. The extracted features were then fed into\nseveral machine learning classifiers to classify subjects as either a case of\nCOVID-19 or a control. This approach avoided task-specific data pre-processing\nmethods to support a better generalization ability for unseen data. The\nperformance of the proposed method was validated on a publicly available\nCOVID-19 dataset of chest X-ray and CT images. The DenseNet121 feature\nextractor with Bagging tree classifier achieved the best performance with 99%\nclassification accuracy. The second-best learner was a hybrid of the a ResNet50\nfeature extractor trained by LightGBM with an accuracy of 98%.",
+    "pdf_url": "http://arxiv.org/pdf/2004.10641v1",
+    "published": "2020-04-22"
+  },
+  "2102.04301v1": {
+    "title": "Antibacterial and antibiofilm activities of a traditional herbal formula against respiratory infection causing bacteria",
+    "authors": [
+      "H. A Qaralleh",
+      "M. O. Al-Limoun",
+      "A. Khlaifat",
+      "K. M. Khleifat",
+      "N. Al-Tawarah",
+      "K. Y. Alsharafa",
+      "H. A. Abu-Harirah"
+    ],
+    "summary": "The plants, Althaea officinalis, Tilia cordata and Psidium guaja have been\nused traditionally to treat respiratory infection symptoms. Flowers of A.\nofficinalis and leaves of T. cordata and P. guaja have been used to treat\ncough, sore throat, catarrh, oral and pharyngeal mucosa irritation. Therefore,\nthis study was designed to examine the antibacterial and antibiofilm effects of\nthese plants individually as well as in combination, as a formula against\nrespiratory infections causing pathogens. The tested pathogens were Extended\nSpectrum Beta-Lactamase producing Escherichia coli (ESBL), Beta-Lactamase\nproducing Escherichia coli (BL), Beta-Lactamase producing Klebsiella pneumoniae\n(BL), Beta-Lactamase producing Pseudomonas aeruginosa (BL), Enterobacter\ncloacae, and Beta-Lactamase producing Staphylococcus aureus (BL). The tested\nplants were extracted using ethanol and then fractionated using different\npolarity solvents (hexane, ethyl acetate and water). Disc diffusion and\nmicrodilution (Minimum Inhibitory Concentration) methods were used to evaluate\nthe antibacterial activity while the antibiofilm activity was tested using\ncrystal violet assay. The results showed that A. officinalis and T. cordata\nextracts and fractions exhibited weak antibacterial activity having MIC values\nranged from 6.25 to 12.5 mg/mL. P. guaja exhibited moderate antibacterial\nactivity with MIC values ranged from 6.25 to 1.56 mg/mL. Combination between\nthese plants extracts and fractions in equal proportion provides stronger\nantibacterial (with MIC values ranged from 6.25 to 0.8 mg/mL) and antibiofilm\nactivities (MBIC50 was 0.2 mg/mL). Therefore, this study provides a valuable\nscientific knowledge to support the use of plants in combination rather than\nindividually.",
+    "pdf_url": "http://arxiv.org/pdf/2102.04301v1",
+    "published": "2021-01-19"
+  },
+  "0908.1322v1": {
+    "title": "On the Structure of the Effective Potential for a Spherical Wormhole",
+    "authors": [
+      "N. Montelongo Garcia",
+      "T. Zannias"
+    ],
+    "summary": "The structure of the effective potential $V$ describing causal geodesics near\nthe throat of an arbitrary spherical wormhole is analyzed. Einstein's equations\nrelative to a set of regular coordinates covering a vicinity of the throat\nimply that any spherical wormhole can be constructed from solutions of an\neffective initial value problem with the throat serving as an initial value\nsurface. The initial data involve matter variables, the area A(0) of the throat\nand the gradient $\\Lambda(0)$ of the red shift factor on the throat. Whenever\n$\\Lambda(0)=0$, the effective potential $V$ has a critical point on the throat.\nConditions upon the data are derived ensuring that the critical point is a\nlocal minimum (resp. maximum). For particular families of Quasi-Schwarzschild\nwormholes, $V$ exhibits a local minimum on the throat independently upon the\nenergy $E$ and angular momentum $L^2 $ of the test particles and thus such\nwormholes admit stable circular timelike and null geodesics on the throat. For\nfamilies of Chaplygin wormholes, we show that such geodesics are unstable.\nBased on a suitable power series representation of the metric, properties of\n$V$ away from the throat are obtained that are useful for the analysis of\naccretion disks and radiation processes near the throat of any spherical\nwormhole.",
+    "pdf_url": "http://arxiv.org/pdf/0908.1322v1",
+    "published": "2009-08-10"
+  },
+  "0705.3648v2": {
+    "title": "Energy Transfer between Throats from a 10d Perspective",
+    "authors": [
+      "B. v. Harling",
+      "A. Hebecker",
+      "T. Noguchi"
+    ],
+    "summary": "Strongly warped regions, also known as throats, are a common feature of the\ntype IIB string theory landscape. If one of the throats is heated during\ncosmological evolution, the energy is subsequently transferred to other throats\nor to massless fields in the unwarped bulk of the Calabi-Yau orientifold. This\nenergy transfer proceeds either by Hawking radiation from the black hole\nhorizon in the heated throat or, at later times, by the decay of\nthroat-localized Kaluza-Klein states. In both cases, we calculate in a 10d\nsetup the energy transfer rate (respectively decay rate) as a function of the\nAdS scales of the throats and of their relative distance. Compared to existing\nresults based on 5d models, we find a significant suppression of the energy\ntransfer rates if the size of the embedding Calabi-Yau orientifold is much\nlarger than the AdS radii of the throats. This effect can be partially\ncompensated by a small distance between the throats. These results are\nrelevant, e.g., for the analysis of reheating after brane inflation. Our\ncalculation employs the dual gauge theory picture in which each throat is\ndescribed by a strongly coupled 4d gauge theory, the degrees of freedom of\nwhich are localized at a certain position in the compact space.",
+    "pdf_url": "http://arxiv.org/pdf/0705.3648v2",
+    "published": "2007-05-24"
+  }
+}

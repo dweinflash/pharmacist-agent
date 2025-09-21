@@ -1,0 +1,69 @@
+{
+  "2010.16325v1": {
+    "title": "Identifying the optimal parameters for sprayed and inhaled drug particulates for intranasal targeting of SARS-CoV-2 infection sites",
+    "authors": [
+      "Yueying Lao",
+      "Diane Joseph-McCarthy",
+      "Arijit Chakravarty",
+      "Pallavi A. Balivada",
+      "Phoebe Ato",
+      "Nogaye K. Ka",
+      "Saikat Basu"
+    ],
+    "summary": "Efficacy for COVID-19 treatments can be enhanced significantly through\ntargeting the nasopharynx, which has been shown to be the dominant preliminary\ninfection site for SARS-CoV-2. Although intranasal drugs can be administered\neasily through drops or sprays, it is difficult to test whether current\nprotocols will deliver the right amount of the drug to this location\nconsistently. We are interested in developing an in silico prototyping tool to\nrapidly identify optimal parameters for intranasal delivery. In this study, we\nhave applied computational fluid dynamics to simulate fluid flow through the\nnasal cavity and examined particle deposition for a drug formulation, mimicking\ndifferent delivery methods. The nasal geometry models were derived using\ndigitized and meshed computed tomography (CT) scans of human patients. Using\nthe nasal geometries, we simulated two different airflows: a laminar model at\n15 LPM (Liters/min) that simulated resting breathing rate and a Large Eddy\nSimulation (LES) model used to achieve a higher flow rate of 30 LPM. We were\nable to run particle tracking simulations for these two airflow schemes to test\ndifferent drug properties such as particle size. The different injection\nmethods used include surface injection which best replicates an inhaler-based\nrelease of particle droplets into the nostril and the cone injection method\nwhich best replicates a spray into the nostril. The results of the study\nsuggest that the most optimal drug particle size for targeting the intranasal\ninfection sites is around 6-14 microns.",
+    "pdf_url": "http://arxiv.org/pdf/2010.16325v1",
+    "published": "2020-10-30"
+  },
+  "2305.04931v2": {
+    "title": "Network pharmacology on the mechanism of Yi Qi Tong Qiao Pill inhibiting allergic rhinitis",
+    "authors": [
+      "Boyang Wang",
+      "DingFan Zhang",
+      "Tingyu Zhang",
+      "Chayanis Sutcharitchan",
+      "Jianlin Hua",
+      "Dongfang Hua",
+      "Bo Zhang",
+      "Shao Li"
+    ],
+    "summary": "Objective: The purpose of this study is to reveal the mechanism of action of\nYi Qi Tong Qiao Pill (YQTQP) in the treatment of allergic rhinitis (AR), as\nwell as establish a paradigm for the researches on traditional Chinese medicine\n(TCM) from systematic perspective. Methods: Based on the data collected from\nTCM-related and disease-related databases, target profiles of compounds in\nYQTQP were calculated through network-based algorithms and holistic targets of\nTQTQP was constructed. Network target analysis was performed to explore the\npotential mechanisms of YQTQP in the treatment of AR and the mechanisms were\nclassified into different modules according to their biological functions.\nBesides, animal and clinical experiments were conducted to validate our\nfindings inferred from Network target analysis. Results: Network target\nanalysis showed that YQTQP targeted 12 main pathways or biological processes\nrelated to AR, represented by those related to IL-4, IFN-{\\gamma}, TNF-{\\alpha}\nand IL-13. These results could be classified into 3 biological modules,\nincluding regulation of immune and inflammation, epithelial barrier disorder\nand cell adhesion. Finally, a series of experiments composed of animal and\nclinical experiments, proved our findings and confirmed that YQTQP could\nimprove related symptoms of AR, like permeability of nasal mucosa epithelium.\nConclusion: A combination of Network target analysis and the experimental\nvalidation indicated that YQTQP was effective in the treatment of AR and might\nprovide a new insight on revealing the mechanism of TCM against diseases.",
+    "pdf_url": "http://arxiv.org/pdf/2305.04931v2",
+    "published": "2023-05-06"
+  },
+  "2504.07913v1": {
+    "title": "Optimal Control For Anti-Abeta Treatment in Alzheimer's Disease using a Reaction-Diffusion Model",
+    "authors": [
+      "Wenrui Hao",
+      "Chiu-Yen Kao",
+      "Sun Lee",
+      "Zhiyuan Li"
+    ],
+    "summary": "Alzheimer's disease is a progressive neurodegenerative disorder that\nsignificantly impairs patient survival and quality of life. While current\npharmacological treatments aim to slow disease progression, they remain\ninsufficient in halting cognitive decline. Mathematical modeling has emerged as\na powerful tool for understanding the dynamics of AD and optimizing treatment\nstrategies. However, most existing models focus on temporal dynamics using\nordinary differential equation-based approaches, often neglecting the critical\nrole of spatial heterogeneity in disease progression.\n  In this study, we employ a spatially explicit reaction-diffusion model to\ndescribe amyloid-beta (A beta) dynamics in the brain, incorporating treatment\noptimization while accounting for potential side effects. Our objective is to\nminimize amyloid-beta plaque concentration while balancing therapeutic efficacy\nagainst adverse effects, such as amyloid-related imaging abnormalities (ARIA).\nUnder specific assumptions, we establish the well-posedness and uniqueness of\nthe optimal solution. We employ numerical methods based on the Finite Element\nMethod to compute personalized treatment strategies, leveraging real patient\namyloid-beta positron emission tomography (PET) scan data.\n  Our results demonstrate that optimal treatment strategies outperform constant\ndosing regimens, achieving significant reductions in amyloid burden while\nminimizing side effects. By integrating spatial dynamics and personalized\ntreatment planning, our framework offers a novel approach to refining\ntherapeutic interventions for Alzheimer's disease.",
+    "pdf_url": "http://arxiv.org/pdf/2504.07913v1",
+    "published": "2025-04-10"
+  },
+  "2310.17917v1": {
+    "title": "Estimating quantile treatment effect on the original scale of the outcome variable: a case study of common cold treatments",
+    "authors": [
+      "Harri Hemil\u00e4",
+      "Matti Pirinen"
+    ],
+    "summary": "The effects of treatments on continuous outcomes can be estimated by the mean\ndifference (i.e. by measurement units) and the relative effect scales (i.e. by\npercentages), both of which provide only a single effect size estimate over the\nstudy population. Quantile treatment effect (QTE) analysis is more informative\nas it describes the effect of the treatment across the whole population. A\ndrawback of QTE has been that it is usually presented over the quantiles of the\ncontrol group distribution, whereas presentation over the measurement units is\noften more informative.\n  We developed a method to estimate back-transformed QTE (BQTE), that presents\nQTE as a function of the outcome value in the control group, using piecewise\nlinear interpolation and bootstrapping. We further applied the BQTE function to\nprovide informative bounds on the treatment effect at the upper and lower tails\nof the population. To illustrate the approach, we used 3 data sets of treatment\nfor the common cold: zinc gluconate lozenges, zinc acetate lozenges, and nasal\ncarrageenan. In all data sets, the relative scale provided a better summary of\nthe BQTE distribution than the mean difference.\n  The BQTE approach is particularly useful for describing the variability of\neffects on the duration of illnesses, length of hospital stay and other\ncontinuous outcomes that can vary greatly in the population. Using this method,\nit is possible to present the QTE by the measurement units, which provides an\ninformative addition to the standard presentation by quantiles.",
+    "pdf_url": "http://arxiv.org/pdf/2310.17917v1",
+    "published": "2023-10-27"
+  },
+  "2106.10684v1": {
+    "title": "Optimal personalised treatment computation through in silico clinical trials on patient digital twins",
+    "authors": [
+      "Stefano Sinisi",
+      "Vadim Alimguzhin",
+      "Toni Mancini",
+      "Enrico Tronci",
+      "Federico Mari",
+      "Brigitte Leeners"
+    ],
+    "summary": "In Silico Clinical Trials (ISTC), i.e., clinical experimental campaigns\ncarried out by means of computer simulations, hold the promise to decrease time\nand cost for the safety and efficacy assessment of pharmacological treatments,\nreduce the need for animal and human testing, and enable precision medicine. In\nthis paper we present methods and an algorithm that, by means of extensive\ncomputer simulation--based experimental campaigns (ISTC) guided by intelligent\nsearch, optimise a pharmacological treatment for an individual patient\n(precision medicine). e show the effectiveness of our approach on a case study\ninvolving a real pharmacological treatment, namely the downregulation phase of\na complex clinical protocol for assisted reproduction in humans.",
+    "pdf_url": "http://arxiv.org/pdf/2106.10684v1",
+    "published": "2021-06-20"
+  }
+}

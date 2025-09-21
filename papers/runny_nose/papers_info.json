@@ -1,0 +1,14 @@
+{
+  "2209.14995v2": {
+    "title": "Non-segmental Bayesian Detection of Multiple Change-points",
+    "authors": [
+      "Chong Zhong",
+      "Zhihua Ma",
+      "Xu Zhang",
+      "Catherine C. Liu"
+    ],
+    "summary": "We propose an original and general NOn-SEgmental (NOSE) approach for the\ndetection of multiple change-points. NOSE identifies change-points by the\nnon-negligibility of posterior estimates of the jump heights. Alternatively,\nunder the Bayesian paradigm, NOSE treats the step-wise signal as a global\ninfinite dimensional parameter drawn from a proposed process of atomic\nrepresentation, where the random jump heights determine the locations and the\nnumber of change-points simultaneously. The random jump heights are further\nmodeled by a Gamma-Indian buffet process shrinkage prior under the form of\ndiscrete spike-and-slab. The induced maximum a posteriori estimates of the jump\nheights are consistent and enjoy zerodiminishing false negative rate in\ndiscrimination under a 3-sigma rule. The success of NOSE is guaranteed by the\nposterior inferential results such as the minimaxity of posterior contraction\nrate, and posterior consistency of both locations and the number of abrupt\nchanges. NOSE is applicable and effective to detect scale shifts, mean shifts,\nand structural changes in regression coefficients under linear or\nautoregression models. Comprehensive simulations and several real-world\nexamples demonstrate the superiority of NOSE in detecting abrupt changes under\nvarious data settings.",
+    "pdf_url": "http://arxiv.org/pdf/2209.14995v2",
+    "published": "2022-09-29"
+  }
+}

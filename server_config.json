@@ -1,20 +1,25 @@
 {
     "mcpServers": {
         "filesystem": {
-            "command": "npx",
+            "command": "sh",
             "args": [
-                "-y",
-                "@modelcontextprotocol/server-filesystem",
-                "."
+                "-c",
+                "npx -y @modelcontextprotocol/server-filesystem . 2>/dev/null"
             ]
         },
         "research": {
-            "command": "uv",
-            "args": ["run", "research_server.py"]
+            "command": "sh",
+            "args": [
+                "-c",
+                "uv run research_server.py 2>/dev/null"
+            ]
         },
         "fetch": {
-            "command": "uvx",
-            "args": ["mcp-server-fetch"]
+            "command": "sh",
+            "args": [
+                "-c",
+                "uvx mcp-server-fetch 2>/dev/null"
+            ]
         }
     }
 }
